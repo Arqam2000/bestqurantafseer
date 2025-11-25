@@ -1,6 +1,6 @@
 import bestqurantafseer from "../assets/bestqurantafseer.png"
 
-const TafseerUlQuran = () => {
+const MajmooaHidayat = () => {
   const tableData = [
     ["2. Surah Al-Baqara Starting with Para-2"],
     ["3. Surah Al-Imran"],
@@ -71,6 +71,7 @@ const TafseerUlQuran = () => {
           </div>
         </div>
         <section className="mb-8 text-center max-w-3xl mx-auto px-4">
+          <h2 className="text-xl font-bold">Majmooa Hidayat</h2>
           <h2 className="text-xl font-bold">Tafseer Ul Quran</h2>
           <p className="mb-4 text-justify max-w-3xl mx-auto px-4">
             Muhammad Shoaib Bin Hafiz Muslim was a distinguished Muslim scholar and educator in India,
@@ -117,4 +118,4 @@ const TafseerUlQuran = () => {
   )
 }
 
-export default TafseerUlQuran
+export default MajmooaHidayat

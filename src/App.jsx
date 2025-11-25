@@ -1,5 +1,8 @@
 import { Navbar } from "./components/Navbar";
 import backgroundImage from "./assets/tafsserback.jpg"
+// import bestqurantafseer from "../images/bestqurantafseer.png"
+import bestqurantafseer from "./assets/bestqurantafseer.png"
+import Footer from "./components/Footer";
 
 export default function TheBook() {
   // helper to generate PDF link from name
@@ -64,8 +67,18 @@ export default function TheBook() {
 
   return (
     <div className="overflow-x-auto">
-      <Navbar />
-      <div style={{backgroundImage: `url(${backgroundImage})`}}>
+      {/* <Navbar /> */}
+      <div
+      // style={{backgroundImage: `url(${backgroundImage})`}}
+      >
+        <div className="md:h-[550px] border relative">
+          <img src={bestqurantafseer} alt="bestqurantafseer" className="w-full h-full md:object-cover" />
+          <div className="absolute top-2/6 md:left-20 left-10">
+            <p className="md:text-8xl font-serif font-semibold">قَدْ أَفْلَحَ مَن زَكَّاهَا
+            </p>
+            <p className="md:text-8xl mt-3 font-serif font-semibold">وَقَدْ خَابَ مَن دَسَّاهَا</p>
+          </div>
+        </div>
         <section className="mb-8 text-center max-w-3xl mx-auto px-4">
           <h2 className="text-xl font-bold">About the Author</h2>
           <p className="mb-4 text-justify max-w-3xl mx-auto px-4">
@@ -123,7 +136,9 @@ export default function TheBook() {
             ))}
           </tbody>
         </table>
+
       </div>
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -1,11 +1,12 @@
 import React from 'react'
 import { Navbar } from '../components/Navbar'
 import aboutAuthor from "../assets/aboutAuthor.jpg"
+import Footer from '../components/Footer'
 
 export const AboutTheAuthor = () => {
     return (
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <div className='flex justify-center'>
             <img src={aboutAuthor} alt="about author" className='w-3xl md:h-[400px]'/>
 
@@ -32,6 +33,7 @@ export const AboutTheAuthor = () => {
                 </p>
 
             </section>
+            {/* <Footer /> */}
         </div>
     )
 }
