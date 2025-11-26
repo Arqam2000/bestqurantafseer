@@ -9,6 +9,7 @@ import ContactUs from './pages/ContactUs.jsx'
 import Layout from './Layout.jsx'
 import MajmooaHidayat from './pages/MajmooaHidayat.jsx'
 import AlHayaAlAkhlaq from './pages/AlHayaAlAkhlaq.jsx'
+import { DataProvider } from './useFilteredData.jsx'
 
 const router = createBrowserRouter([
   {
@@ -47,8 +48,10 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}>
-      <App />
-    </RouterProvider>
+    <DataProvider >
+      <RouterProvider router={router}>
+        <App />
+      </RouterProvider>
+    </DataProvider>
   </StrictMode>,
 )

@@ -1,9 +1,30 @@
-import React, { useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import quran from "../assets/holy-quran.webp"
+import { DataContext } from '../useFilteredData'
+import tableData from '../surahs'
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [search, setSearch] = useState("")
+  // const {search, setSearchValue} = useFilteredData()
+  const {setFilteredSurahs} = useContext(DataContext)
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (search) {
+        console.log("You have typed", search)
+        const filteredData = tableData.filter(surah => surah[1].toLowerCase().replace("al", "").replace("an", "").replace("-", "").includes(search))
+        console.log("filteredData", filteredData)
+        setFilteredSurahs(filteredData)
+      } else {
+        setFilteredSurahs([])
+      }
+      
+    }, 500);
+
+    return () => clearTimeout(timer)
+  }, [search])
 
   return (
     <>
@@ -25,6 +46,8 @@ export const Navbar = () => {
             type="text"
             placeholder="Search"
             className="border rounded px-3 py-1 hidden md:inline"
+            onChange={(e) => setSearch(e.target.value)}
+            // onChange={(e) => setSearchValue(e)}
           />
           <button className="menu-toggle md:hidden text-2xl z-20"
             onClick={() => setIsMenuOpen(!isMenuOpen)}>&#9776;</button>

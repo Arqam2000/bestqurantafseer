@@ -1,6 +1,10 @@
+import { useContext } from "react";
 import bestqurantafseer from "../assets/bestqurantafseer.png"
+import { DataContext } from "../useFilteredData";
 
 const TafseerUlQuran = () => {
+  const {filteredSurahs} = useContext(DataContext)
+
   const tableData = [
     ["2. Surah Al-Baqara Starting with Para-2"],
     ["3. Surah Al-Imran"],
@@ -80,7 +84,42 @@ const TafseerUlQuran = () => {
           </p>
 
         </section>
-        <table className="w-auto mx-auto border border-gray-300 text-sm">
+
+        {
+          filteredSurahs.length > 0 ? <table className="w-auto mx-auto border border-gray-300 text-sm">
+          <thead>
+            <tr className="bg-gray-100">
+              <th className="border px-3 py-2">Majmooa Hidayat</th>
+              <th className="border px-3 py-2">Tafseer ul Quran</th>
+              <th className="border px-3 py-2">Al Haya Al Akhlaq</th>
+            </tr>
+          </thead>
+          <tbody>
+            {filteredSurahs.map((row, idx) => (
+              <tr key={idx}>
+                {row.map((cell, i) => {
+                  const pdf = getPdfLink(cell);
+                  return (
+                    <td key={i} className="border px-3 py-2">
+                      {pdf ? (
+                        <a
+                          href={pdf}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-600 hover:underline"
+                        >
+                          {cell}
+                        </a>
+                      ) : (
+                        cell
+                      )}
+                    </td>
+                  );
+                })}
+              </tr>
+            ))}
+          </tbody>
+        </table> : <table className="w-auto mx-auto border border-gray-300 text-sm">
           <thead>
             <tr className="bg-gray-100">
               <th className="border px-3 py-2">SURAH TAFSEER</th>
@@ -112,6 +151,8 @@ const TafseerUlQuran = () => {
             ))}
           </tbody>
         </table>
+        }
+        
       </div>
     </div>
   )
