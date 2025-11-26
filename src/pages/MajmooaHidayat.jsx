@@ -1,53 +1,10 @@
-import bestqurantafseer from "../assets/bestqurantafseer.png"
+import bestqurantafseer from "../assets/majmooahidayat.png"
 
 const MajmooaHidayat = () => {
   const tableData = [
-    ["2. Surah Al-Baqara Starting with Para-2"],
-    ["3. Surah Al-Imran"],
-    ["4. Surah An-Nisaa"],
-    ["5. Surah Al-Maeda"],
-    ["6. Surah Al-Anaam"],
-    ["7. Surah Al-Araf"],
-    ["12. Surah Yousuf"],
-    ["16. Surah An-Nahl"],
-    ["18. Surah Al-Kahf"],
-    ["26. Surah Ash-Shuara"],
-    ["27. Surah An-Naml"],
-    ["28. Surah Al-Qasas"],
-    ["36. Surah Yaseen"],
-    ["37. Surah Saaffaat"],
-    ["38. Surah Saad"],
-    ["39. Surah Zamar"],
-    ["46. Surah Ahqaaf"],
-    ["47. Surah Muhammad"],
-    ["48. Surah Fatah"],
-    ["50. Surah Qaaf"],
-    ["52. Surah Toor"],
-    ["53. Surah Najm"],
-    ["54. Surah Qamar"],
-    ["55. Surah Rahman"],
-    ["56. Surah Waqia"],
-    ["57. Surah Hadeed"],
-    ["58. Surah Mujadila"],
-    ["59. Surah Hashr"],
-    ["60. Surah Mumtahana"],
-    ["61. Surah Saff"],
-    ["62. Surah Juma"],
-    ["63. Surah Munafiqeen"],
-    ["64. Surah Taghabun"],
-    ["65. Surah Talaq"],
-    ["66. Surah Tehreem"],
-    ["67. Surah Mulk"],
-    ["68. Surah Qalam"],
-    ["69. Surah Al Haaqqa"],
-    ["70. Surah Maarij"],
-    ["71. Surah Nooh"],
-    ["72. Surah Jinn"],
-    ["73. Surah Muzzammil"],
-    ["74. Surah Muddassir"],
-    ["75. Surah Qiyamah"],
-    ["76. Surah Al Insaan"],
-    ["77. Surah Mursalaat"],
+    ["Preface"],
+    ["Chapter 1"],
+    ["Chapter 2"],
   ];
 
   const getPdfLink = (name) => {
@@ -63,28 +20,44 @@ const MajmooaHidayat = () => {
     <div>
       <div className="bg-emerald-100">
         <div className="md:h-80 border relative">
+
           <img src={bestqurantafseer} alt="bestqurantafseer" className="w-full h-full md:object-cover" />
-          <div className="absolute top-2/6 md:left-20 left-10">
-            <p className="md:text-8xl font-serif font-semibold">قَدْ أَفْلَحَ مَن زَكَّاهَا
-            </p>
-            <p className="md:text-8xl mt-3 font-serif font-semibold">وَقَدْ خَابَ مَن دَسَّاهَا</p>
+
+          <div className="absolute top-1/5 md:right-10 right-10">
+            <p className="md:text-5xl font-serif">مَنِ اہۡتَدٰی فَاِنَّمَا یَہۡتَدِیۡ لِنَفۡسِہٖ</p>
+            <p className="md:text-5xl mt-3 font-serif">وَ مَنۡ ضَلَّ فَاِنَّمَا یَضِلُّ عَلَیۡہَا</p>
+
+          </div>
+          <div className="absolute top-2/5 left-5">
+            <h1 className=" mb-4 mt-4 text-3xl md:left-10 left-10 font-bold">MAJMOOA HIDAYAT ---- <em> Open doors to wisdom</em></h1>
+
           </div>
         </div>
-        <section className="mb-8 text-center max-w-3xl mx-auto px-4">
-          <h2 className="text-xl font-bold">Majmooa Hidayat</h2>
-          <h2 className="text-xl font-bold">Tafseer Ul Quran</h2>
-          <p className="mb-4 text-justify max-w-3xl mx-auto px-4">
-            Muhammad Shoaib Bin Hafiz Muslim was a distinguished Muslim scholar and educator in India,
-            renowned for his contributions to Arabic literature and education in the early 19th Century.
-            He authored three notable books, reflecting his deep understanding of Islamic teachings
-            and Arabic linguistics.
+
+
+        <section className="text-center ">
+          <h1 className=" mb-4 mt-4 text-xl font-bold">MAJMOOA HIDAYAT </h1>
+          <p></p>
+          <p className="mb-4 text-justify max-w-6xl mx-auto px-4">
+            <strong><em>Majmooa Hidayat</em></strong> is the Urdu translation of the renowned Arabic book <strong><em>Rooh-ul-Sunna wa Nazar ila Kemeya Yaqeen</em></strong> , authored by the distinguished scholar Muhaddis Ahmed Bin Idrees.
+            This translation, prepared by Muhammad Shoaib on August 1921, was created with the intention of making the wisdom of this book accessible to every reader, so that all can benefit from its timeless guidance.
+            The book serves as a beautiful roadmap in understanding the Sunnah and demonstrates how one can live a conscious, productive and successful life by applying simple Sunnah practices in daily living.
+          </p>
+          <p className="mb-2 text-justify max-w-6xl mx-auto px-4">
+            To make study easier, the book has been divided into two main sections:
+          </p>
+          <p className="mb-1 text-justify max-w-6xl mx-auto px-4">
+            Chapter# 1:
+          </p>
+          <p className="mb-2 text-justify max-w-6xl mx-auto px-4">
+            Chapter# 2:
           </p>
 
         </section>
-        <table className="w-auto mx-auto border border-gray-300 text-sm">
+        <table className="w-auto mx-auto border border-gray-300 ">
           <thead>
             <tr className="bg-gray-100">
-              <th className="border px-3 py-2">SURAH TAFSEER</th>
+              <th className="border px-3 py-2"><h1><strong>Majmooa Hidayat</strong></h1> <em>(Read the book by clicking below )</em></th>
             </tr>
           </thead>
           <tbody>

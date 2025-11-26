@@ -1,0 +1,70 @@
+can you please design cover page of my website  : on left first write قَدۡ اَفۡلَحَ مَنۡ زَکّٰىہَا and then just below it write وَ قَدۡ خَابَ مَنۡ دَسّٰىہَا
+on right corner A Quran placed on a stand (rihal) with gentle golden light shining, symbolizing divine guidance. give a light blue touch , make it in landscape  
+width 400px , make sure that written text will be clear and readable
+
+Majmooa hidayat is the urdu translation of the arabic book 'Rooh-ul-Sunna wa nazar ila Kemeya Qaqeen' written by Muhaddis Ahmed Bin Idress. 
+Muhammad Shoaib translated the book so that a common man can get benefit from this book . This book is beautiful
+guideline about sunnah and how to live a consious productive successful life applying  simple   sunnah in your life. The book is divided in two  major portion , we seprated it as
+chapter 1 and chapter 2.
+
+======================= 
+Majmooa Hidayat is the Urdu translation of the renowned Arabic work Rooh-ul-Sunna wa Nazar ila Kemeya Yaqeen, authored by the distinguished scholar Muhaddis Ahmed Bin Idrees.
+
+This translation, carried out by Muhammad Shoaib, was prepared with the intention of making the wisdom of this book accessible to the common reader, so that everyone can benefit from its timeless guidance.
+
+The book serves as a beautiful roadmap to understanding the Sunnah and demonstrates how one can lead a conscious, productive, and successful life by applying simple Sunnah practices in daily living.
+
+For ease of study, the book has been divided into two main sections, presented as Chapter 1 and Chapter 2.
+
+=================== web page =====================
+
+
+Here’s a **complete, polished webpage draft** for your book, arranged in a clear flow that you can copy directly into your site:  
+
+---
+
+# 🌿 Majmooa Hidayat — A Timeless Guide to Sunnah  
+
+### ✨ Subtitle  
+*An inspiring Urdu translation that opens the doors to Sunnah and its practical wisdom.*  
+
+---
+
+## 📖 Introduction  
+**Majmooa Hidayat** is the Urdu translation of the renowned Arabic work *Rooh-ul-Sunna wa Nazar ila Kemeya Yaqeen*, authored by the distinguished scholar Muhaddis Ahmed Bin Idrees.  
+
+This translation, prepared by Muhammad Shoaib, was created with the intention of making the wisdom of this book accessible to every reader, so that all can benefit from its timeless guidance.  
+
+The book serves as a beautiful roadmap to understanding the Sunnah and demonstrates how one can lead a conscious, productive, and successful life by applying simple Sunnah practices in daily living.  
+
+---
+
+## 📚 Structure of the Book  
+To make study easier, the book has been divided into two main sections:  
+
+- **Chapter 1** — Introducing the foundations of Sunnah and its role in daily life.  
+- **Chapter 2** — Practical applications of Sunnah for building a conscious, productive, and successful lifestyle.  
+
+---
+
+## 🌟 Call to Action  
+**“Begin your journey with Sunnah today — read Majmooa Hidayat online.”**  
+
+---
+
+This flow gives you:  
+- A **headline** that captures attention.  
+- A **subtitle** that sets the tone.  
+- A **warm introduction** explaining the book’s origin and purpose.  
+- A **chapter overview** for clarity.  
+- A **call-to-action** that gently invites readers to engage.  
+
+Would you like me to also **suggest a design style** (colors, fonts, layout ideas) that would visually match the respectful and inviting tone of your book webpage?
+
+
+========================
+  <p className="mb-4 ml-4 text-justify max-w-3xl mx-auto px-4">
+<strong><em>Majmooa Hidayat</em></strong> is the Urdu translation of the renowned Arabic book <strong><em>Rooh-ul-Sunna wa Nazar ila Kemeya Yaqeen</em></strong> , authored by the distinguished scholar Muhaddis Ahmed Bin Idrees.  
+This translation, prepared by Muhammad Shoaib, was created with the intention of making the wisdom of this book accessible to every reader, so that all can benefit from its timeless guidance.  
+The book serves as a beautiful roadmap to understanding the Sunnah and demonstrates how one can lead a conscious, productive, and successful life by applying simple Sunnah practices in daily living.  
+          </p>
